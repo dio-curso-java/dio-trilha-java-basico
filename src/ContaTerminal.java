@@ -14,7 +14,7 @@ public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.println("11Por favor, digite o número da sua conta:");
+        System.out.println("Por favor, digite o número da sua conta:");
         int numero = sc.nextInt();
 
         sc.nextLine(); // necessário para "escapar" o \n vindo do nextInt, já que não é consumido
