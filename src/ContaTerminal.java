@@ -1,6 +1,15 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+/*
+ * DIO - Projeto
+ * Simulando Uma Conta Bancária Através Do Terminal/Console
+ * Entrada de valores pelo usuário, no terminal, com saída
+ * 
+ * @version 1.0
+ * @author Rodrigo Roma
+ */
+
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
