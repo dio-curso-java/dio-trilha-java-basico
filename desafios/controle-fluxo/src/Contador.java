@@ -8,6 +8,7 @@ import java.util.*;
  */
 
 public class Contador {
+	
 	public static void main(String[] args) {
 		Scanner terminal = new Scanner(System.in);
 		System.out.println("Digite o primeiro parâmetro");
